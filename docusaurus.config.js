@@ -64,27 +64,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'features',
-        path: 'features', // Another folder
-        routeBasePath: 'features',
-        sidebarPath: require.resolve('./featuresSidebar.js'),
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
         id: 'support',
         path: 'support',
         routeBasePath: 'support',
-        sidebarItemsGenerator: async () => [],
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'faqs',
-        path: 'faqs',
-        routeBasePath: 'faqs',
         sidebarItemsGenerator: async () => [],
       },
     ],
@@ -146,25 +128,11 @@ const config = {
             label: 'Web Pages',
           },
           {
-            docsPluginId: 'features',
-            type: 'docSidebar',
-            sidebarId: 'featuresSidebar',
-            position: 'left',
-            label: 'Features',
-          },
-          {
             docId: 'index',
             docsPluginId: 'support',
             type: 'doc',
             position: 'left',
             label: 'Support',
-          },
-          {
-            docId: 'index',
-            docsPluginId: 'faqs',
-            type: 'doc',
-            position: 'left',
-            label: 'FAQs',
           },
           {
             docId: 'index',
