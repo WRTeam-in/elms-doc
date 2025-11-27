@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Overview
 
-Thank you for purchasing **e-School**. We appreciate your support. In this documentation, you will find instructions on how to set up the mobile application for e-School. This document also provides features of e-School.
+Thank you for purchasing **eLMS**. We appreciate your support. In this documentation, you will find instructions on how to set up the mobile application for eLMS. This document also provides features of eLMS.
 
 ## Contact Information
 
@@ -15,7 +15,7 @@ Thank you for purchasing **e-School**. We appreciate your support. In this docum
 
 ## About This Documentation
 
-This documentation provides comprehensive instructions for setting up and customizing the e-School mobile application. You'll find detailed guides for:
+This documentation provides comprehensive instructions for setting up and customizing the eLMS mobile application. You'll find detailed guides for:
 
 - Setting up Flutter development environment
 - Customizing app appearance and branding
@@ -24,4 +24,4 @@ This documentation provides comprehensive instructions for setting up and custom
 - Generating release versions
 - And much more
 
-If you have any questions, feel free to reach out. Thank you for choosing e-School!
+If you have any questions, feel free to reach out. Thank you for choosing eLMS!

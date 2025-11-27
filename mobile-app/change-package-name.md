@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Change Package Name
 
-##### 1. Unzip the downloaded code. After unzipping you will have E-School - Flutter Code zip folder. Unzip that folder and open it in Android Studio or Visual Studio Code.
+##### 1. Unzip the downloaded code. After unzipping you will have eLMS - Flutter Code zip folder. Unzip that folder and open it in Android Studio or Visual Studio Code.
 
 ##### 2. Open IDE terminal, go to your project path and execute command:
    ```
