@@ -11,7 +11,7 @@ Thank you for purchasing **e-School**. We appreciate your support. In this docum
 ## Contact Information
 
 **By:** WRTeam  
-**Email:** [wrteam.aayush@gmail.com](mailto:wrteam.aayush@gmail.com)
+**Email:** [wrteam.anish@gmail.com](mailto:wrteam.anish@gmail.com)
 
 ## About This Documentation
 

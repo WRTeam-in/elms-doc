@@ -14,7 +14,7 @@ The admin can create sliders from this screen, allowing them to showcase images 
 
 The admin have the ability to edit or delete existing sliders, providing flexibility in managing the displayed images. This feature allows for effective customization and presentation of relevant content to users.
 
-Sliders can be utilized to showcase a range of topics in the eSchool app, such as:
+Sliders can be utilized to showcase a range of topics in the eLMS app, such as:
 - Upcoming Events and Activities
 - School Achievements and Awards
 - Important Announcements

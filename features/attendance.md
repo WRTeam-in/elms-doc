@@ -22,9 +22,9 @@ Teachers can view the attendance of a specific class. They can filter it by pres
 
 Teachers can easily manage class attendance by utilizing the Bulk Data Entry feature. They can select the desired class and date range, generating a dummy data file containing pre-filled student details. In this file, teachers need only input '1' (for present) or '0' (for absent) in the 'type' column for each student on each date. Afterward, they can effortlessly upload the file using the form below and submit it to efficiently record attendance in bulk.
 
-## eSchool & eSchool Teacher application
+## eLMS & eLMS Teacher application
 
-Teachers can also take/view attendance from the teacher application. Students and their parents can view their attendance monthly report from the eSchool application.
+Teachers can also take/view attendance from the teacher application. Students and their parents can view their attendance monthly report from the eLMS application.
 
 ## Attendance Report
 

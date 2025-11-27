@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Integrate with Firebase
@@ -41,3 +41,7 @@ sidebar_position: 4
    [https://firebase.flutter.dev/docs/messaging/apple-integration](https://firebase.flutter.dev/docs/messaging/apple-integration)
 
 ### 6. You have configured Firebase in your project successfully
+
+---
+Additional Resources:
+For detailed Firebase setup and configuration: [Firebase Setup Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/firebase/)

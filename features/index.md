@@ -15,5 +15,5 @@ e-School is a comprehensive school management system designed to streamline educ
 For any assistance or queries regarding e-School features, please contact our support team:
 
 - **Support Hours**: Monday - Friday, 9:00 AM to 6:00 PM IST (GMT +5.30)
-- **Email:** [wrteam.aayush@gmail.com](mailto:wrteam.aayush@gmail.com)
+- **Email:** [wrteam.anish@gmail.com](mailto:wrteam.anish@gmail.com)
 - **Website**: https://wrteam.in

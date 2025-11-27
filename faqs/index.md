@@ -1,5 +1,5 @@
 # Frequently Asked Questions (FAQs)
-Popular questions about eSchool to help you get started!
+Popular questions about eLMS to help you get started!
 
 ## How to Fix Image Issues
 If you're experiencing image issues, navigate to your PHP admin panel folder and locate the public folder. Delete the existing storage link. Then, paste this URL into your browser: `your-admin-url/storage-link` (replace "your-admin-url" with your actual admin panel URL). You should be all set!
@@ -15,7 +15,7 @@ If you're experiencing image issues, navigate to your PHP admin panel folder and
 The calendars in the application display months based on the current session year, which can be set from the admin panel: System Settings -> General Settings -> Session Year. If the current date is outside the session year, the calendars will only show the current month with today highlighted, but no events. To fix this issue, select the correct session year or create a new one from the admin panel's Session Year screen.
 
 ## Compatibility Requirements
-To ensure optimal performance of the eSchool system, please follow the compatibility guidelines below:
+To ensure optimal performance of the eLMS system, please follow the compatibility guidelines below:
 
 ### Server Requirements
 - **Hosting Type**: Compatible with both Shared Hosting and VPS servers

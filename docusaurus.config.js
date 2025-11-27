@@ -120,7 +120,7 @@ const config = {
       image: 'images/logo/transparent_logo.svg',
       navbar: {
         logo: {
-          alt: 'eSchool Logo',
+          alt: 'eLMS Logo',
           src: 'images/logo/transparent_logo.svg',
         },
         items: [

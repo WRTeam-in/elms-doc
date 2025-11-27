@@ -121,7 +121,7 @@ function HomepageHeader() {
         <div className={styles.logoContainer}>
           <img
             src={logo}
-            alt="eSchool Logo"
+            alt="eLMS Logo"
             width="120"
             height="120"
             className={styles.logo}
@@ -188,7 +188,7 @@ function HomepageFeatures() {
               <div className="card__body">
                 <p>
                   Complete backend code installation guide and admin panel setup instructions
-                  for managing the entire eSchool ecosystem efficiently.
+                  for managing the entire eLMS ecosystem efficiently.
                 </p>
               </div>
               <div className="card__footer">
@@ -242,7 +242,7 @@ function HomepageFeatures() {
               </div>
               <div className="card__body">
                 <p>
-                  Comprehensive feature guide with video tutorials on using all aspects of the eSchool project,
+                  Comprehensive feature guide with video tutorials on using all aspects of the eLMS project,
                   showcasing the complete functionality available to all user roles.
                 </p>
               </div>

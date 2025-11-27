@@ -84,7 +84,7 @@ title: Changelog
 
 ## Version 3.0.0 (28 February 2024)
 
-- **[Added]** eSchool Web: A platform for showcasing your school
+- **[Added]** eLMS Web: A platform for showcasing your school
 - **[Added]** Dynamic web settings within the admin panel, enabling seamless modification of website data
 - **[Enhanced]** Flutter application codes to ensure compatibility with the latest version, optimising performance and user experience
 
@@ -131,7 +131,7 @@ title: Changelog
 
 ## Version 2.0.0 (21 August 2023)
 
-- **[Added]** eSchool Teacher application with eSchool project
+- **[Added]** eLMS Teacher application with eLMS project
 - **[Modified]** One teacher can be a class teacher of multiple classes
 - **[Added]** Streams in which classes can be sub-divided In
 - **[Added]** Shifts feature in which classes can be taken shift-wise

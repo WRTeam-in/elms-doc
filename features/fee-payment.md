@@ -48,7 +48,7 @@ Furthermore, administrators have the convenience of downloading PDF receipts for
 
 This section displays logs of all fees transactions. Administrators can access detailed information about each transaction related to fees.
 
-## Fees Online Payment (Parent Login eSchool App)
+## Fees Online Payment (Parent Login eLMS App)
 
 Parents can conveniently pay their student's current session year fees online through the application. In the student options -> fees section, they can access information about all session years where fees have been paid and download receipts for their records.
 
