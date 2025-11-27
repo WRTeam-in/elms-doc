@@ -35,9 +35,10 @@ To find your Purchase code you can visit this link: [Where is My Purchase code?]
 ## 6. Database Connection Status
 
 ![Database Connection](../static/images/admin/6.png)
+![Migration Connection](../static/images/admin/7.png) 
 
 ## 7. Final Installation Screen
 
 If everything is configured successfully then your Admin panel has been installed successfully. You can login as Super Admin using the credentials provided here.
 
-![Final Installation](../static/images/admin/7.png) 
+![Final Installation](../static/images/admin/12.png) 

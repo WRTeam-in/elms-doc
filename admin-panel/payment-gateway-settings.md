@@ -7,24 +7,26 @@ sidebar_position: 7
 
 ![Payment Gateway Settings](../static/images/admin/11.png)
 
-## Sender Id
+## Stripe
+1. Login to Stripe dashboard - https://dashboard.stripe.com/
+2. You will find Publishable key, Secret key    
+![Stripe](../static/images/admin/14.png)
+3. Docs - https://docs.stripe.com/payments?payments=popular
 
-![Firebase Sender ID](../static/images/admin/firebase_sender_id.png)
+## Razorpay
 
-1. In the Firebase console, go to Project Settings.
-2. From Cloud Messaging tab check the Firebase Cloud Messaging API (V1) where Sender Id is given, add that to Admin Panel in System Settings > Notification Setting.
+1. Go to https://dashboard.razorpay.com/ and sign in with your Razorpay account
+![Razorpay](../static/images/admin/15.png)
+2. Click Settings
+![Razorpay](../static/images/admin/16.png)
+3. Click Api keys
+![Razorpay](../static/images/admin/17.png)
+4. Genetare new key or regenerate key and copy it. <br/> 
+![Razorpay](../static/images/admin/18.png)
 
-## Firebase Project Id
+## Flutterwave
 
-![Firebase Project ID](../static/images/admin/firebase_project_id.png)
-
-1. In the Firebase console, go to Project Settings
-2. Go to > General where Project Id is given add that to Admin Panel in System Settings > Notification Setting.
-
-## Service Json File
-
-![Firebase Service File](../static/images/admin/firebase_service_file.png)
-
-1. In the Firebase console, open Settings > Service Accounts.
-2. Click Generate New Private Key, then confirm by clicking Generate Key.
-3. Securely store the JSON file containing the key and upload in Admin Panel in System Settings > Notification Setting. 
+1. Login to Flutterwave dashboard - https://app.flutterwave.com/login
+2. In settings -> Develoeprs API Keys, you get find keys.
+![Flutterwave](../static/images/admin/13.png)
+3. Docs - https://developer.flutterwave.com/docs/getting-started?_gl=1*1xkvvzx*_gcl_au*MTQxNjg3NzkzOC4xNzY0MjU2Nzg1*_ga*MTg3MTEwMDMzNy4xNzY0MjMwNzI5*_ga_KQ9NSEMFCF*czE3NjQyNTY3NDgkbzEkZzEkdDE3NjQyNTY3ODUkajIzJGwwJGgw 
