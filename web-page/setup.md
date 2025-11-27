@@ -32,4 +32,3 @@ For detailed configuration options, see the following sections:
 
 - [Setting API URL](domain-url.md)
 - [Integrating Firebase](integrate-firebase.md)
-- [Enabling Mobile Login](mobile-login.md)

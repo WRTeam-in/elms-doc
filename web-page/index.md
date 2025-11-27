@@ -9,7 +9,7 @@ This guide will walk you through deploying the Web application.
 ## Prerequisites
 
 :::warning
-If you possess a VPS server along with some familiarity with [Node.js](https://nodejs.org/docs/latest/api/), [npm](https://docs.npmjs.com/), and [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/), you're well-equipped to deploy with SEO. Otherwise, feel free to use the [local build method](local-build) instead.
+If you possess a VPS server along with some familiarity with [Node.js](https://nodejs.org/docs/latest/api/), [npm](https://docs.npmjs.com/), and [pm2](https://pm2.keymetrics.io/docs/usage/quick-start/), you're well-equipped to deploy.
 :::
 
 ## Required Resources
