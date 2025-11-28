@@ -37,36 +37,3 @@ jobs:
           publish_dir: ./build
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
-
-  generate-pdf:
-    name: Generate PDF Documentation
-    runs-on: ubuntu-latest
-    needs: deploy
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build website
-        run: npm run build
-
-      - name: Serve website in background
-        run: |
-          npm run serve &
-          sleep 10
-
-      - name: Generate PDF
-        run: npm run pdf
-
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: elms-documentation-pdf
-          path: elms-documentation.pdf
-          if-no-files-found: error
