@@ -1,8 +1,13 @@
 ---
 sidebar_position: 1
 ---
+import DocBanner from '@site/src/components/doc-banner/DocBanner';
 
 # Admin Panel
+
+<DocBanner />
+
+##
 
 Thank you for purchasing **eLMS**. We appreciate your support. In this documentation, you will find instructions on how to set up the admin panel for eLMS. This document also provides features of eLMS.
 

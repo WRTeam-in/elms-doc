@@ -1,8 +1,14 @@
 ---
 sidebar_position: 1
 ---
+import DocBanner from '@site/src/components/doc-banner/DocBanner';
+
 
 # Introduction
+
+<DocBanner />
+
+##
 
 This guide will walk you through deploying the Web application.
 
