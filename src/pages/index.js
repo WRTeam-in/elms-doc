@@ -251,6 +251,7 @@ function SupportSection() {
             Support
           </Link>
         </div>
+        <DocBanner />
       </div>
     </section>
   );
@@ -264,7 +265,6 @@ export default function Home() {
       <main>
         <HomepageFeatures />
         <SupportSection />
-        <DocBanner />
       </main>
     </Layout>
   );

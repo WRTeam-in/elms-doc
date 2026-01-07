@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 /* CSS Variables for colors and fonts */
+
 .bannerContainer {
   --primary-color: var(--ifm-color-primary);
   --text-gray: #808693;
@@ -14,9 +15,12 @@
   background-color: var(--bg-white);
   border: 2px solid var(--primary-color);
   border-radius: 25px;
+  max-width: 1050px;
+  width: 100%;
   padding: 18px;
   gap: 24px;
-  margin-bottom: 4rem;
+  margin: auto;
+  margin-top: 4rem ;
   box-sizing: border-box;
 }
 
@@ -110,16 +114,16 @@
   } */
 
   .bannerTitle {
-    font-size: 32px !important;
+    font-size: 24px !important;
   }
 
   .bannerDescription {
-    font-size: 28px;
+    font-size: 21px;
   }
 
   .btnPrimary {
-    font-size: 25px;
-    padding: 18px;
+    font-size: 18px;
+    padding: 12px;
   }
 }
 
