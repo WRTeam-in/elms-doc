@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">Payment Gateway Settings | eLMS Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https:lms-docn.github.io/elms-doc/images/logo/transparent_logo.svg"><meta data-rh="true" name="twitter:image" content="https:lms-docn.github.io/elms-doc/images/logo/transparent_logo.svg"><meta data-rh="true" property="og:url" content="https:lms-docn.github.io/elms-doc/admin-panel/payment-gateway-settings/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-admin-panel-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-admin-panel-current"><meta data-rh="true" property="og:title" content="Payment Gateway Settings | eLMS Documentation"><meta data-rh="true" name="description" content="Payment Gateway Settings"><meta data-rh="true" property="og:description" content="Payment Gateway Settings"><link data-rh="true" rel="icon" href="/elms-doc/images/logo/logo.png"><link data-rh="true" rel="canonical" href="https:lms-docn.github.io/elms-doc/admin-panel/payment-gateway-settings/"><link data-rh="true" rel="alternate" href="https:lms-docn.github.io/elms-doc/admin-panel/payment-gateway-settings/" hreflang="en"><link data-rh="true" rel="alternate" href="https:lms-docn.github.io/elms-doc/admin-panel/payment-gateway-settings/" hreflang="x-default"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><link rel="stylesheet" href="/elms-doc/assets/css/styles.94fbef51.css">
-<script src="/elms-doc/assets/js/runtime~main.8e0c957d.js" defer="defer"></script>
+<script src="/elms-doc/assets/js/runtime~main.d145e51d.js" defer="defer"></script>
 <script src="/elms-doc/assets/js/main.af72d75f.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -34,6 +34,54 @@
 <li>In Settings → Developers → API Keys, you can find your keys.
 <img decoding="async" loading="lazy" alt="Flutterwave" src="/elms-doc/assets/images/13-087077cb134886316952e8ee12d26095.png" width="1082" height="663" class="img_ev3q"></li>
 <li>Docs - <a href="https://developer.flutterwave.com/docs/getting-started?_gl=1*1xkvvzx*_gcl_au*MTQxNjg3NzkzOC4xNzY0MjU2Nzg1*_ga*MTg3MTEwMDMzNy4xNzY0MjMwNzI5*_ga_KQ9NSEMFCF*czE3NjQyNTY3NDgkbzEkZzEkdDE3NjQyNTY3ODUkajIzJGwwJGgw" target="_blank" rel="noopener noreferrer">https://developer.flutterwave.com/docs/getting-started?_gl=1*1xkvvzx*_gcl_au*MTQxNjg3NzkzOC4xNzY0MjU2Nzg1*_ga*MTg3MTEwMDMzNy4xNzY0MjMwNzI5*_ga_KQ9NSEMFCF*czE3NjQyNTY3NDgkbzEkZzEkdDE3NjQyNTY3ODUkajIzJGwwJGgw</a></li>
-</ol></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/elms-doc/admin-panel/app-settings/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">App Settings</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/elms-doc/admin-panel/supervisor-setup/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Supervisor Setup</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#stripe" class="table-of-contents__link toc-highlight">Stripe</a></li><li><a href="#razorpay" class="table-of-contents__link toc-highlight">Razorpay</a></li><li><a href="#flutterwave" class="table-of-contents__link toc-highlight">Flutterwave</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 WRTeam. All rights reserved.</div></div></div></footer></div>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="apple-pay--app-store">Apple Pay / App Store<a href="#apple-pay--app-store" class="hash-link" aria-label="Direct link to Apple Pay / App Store" title="Direct link to Apple Pay / App Store">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-issuer-id-key-id-and-private-key-p8">1. Issuer ID, Key ID, and Private Key (.p8)<a href="#1-issuer-id-key-id-and-private-key-p8" class="hash-link" aria-label="Direct link to 1. Issuer ID, Key ID, and Private Key (.p8)" title="Direct link to 1. Issuer ID, Key ID, and Private Key (.p8)">​</a></h3>
+<p><strong>Where:</strong> App Store Connect → Users and Access → Integrations → App Store Connect API<br>
+<strong>Link:</strong> <a href="https://appstoreconnect.apple.com/access/integrations/api" target="_blank" rel="noopener noreferrer">App Store Connect API</a></p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Log in to App Store Connect with an Admin or Account Holder role.</li>
+<li>Go to <strong>Users and Access</strong> → <strong>Integrations</strong> → <strong>App Store Connect API</strong>.</li>
+<li>Click the <strong>Keys</strong> tab (In-App Purchase keys, not Team keys).</li>
+<li>Click <strong>&quot;+&quot;</strong> to generate a new key.</li>
+<li>Give it a name (e.g., &quot;IAP Server Key&quot;) and select the <strong>In-App Purchase</strong> key type.</li>
+<li>Click <strong>Generate</strong>.</li>
+<li>Copy the <strong>Key ID</strong> shown in the table.</li>
+<li>Download the <strong>.p8 file</strong> — you can only download it once, so save it securely.</li>
+<li>The <strong>Issuer ID</strong> is shown at the top of the page.</li>
+</ol>
+<p>Open the <code>.p8</code> file in a text editor and paste the full contents (including <code>-----BEGIN PRIVATE KEY-----</code> and <code>-----END PRIVATE KEY-----</code> lines) into the Private Key field.</p>
+<p><img decoding="async" loading="lazy" alt="App Store" src="/elms-doc/assets/images/app_store-69dfe6c30829454c296a7fdefc6d31aa.png" width="1674" height="867" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-bundle-id">2. Bundle ID<a href="#2-bundle-id" class="hash-link" aria-label="Direct link to 2. Bundle ID" title="Direct link to 2. Bundle ID">​</a></h3>
+<p><strong>Where:</strong> App Store Connect → Apps → [Your App] → General → App Information<br>
+<strong>Links:</strong></p>
+<ul>
+<li><a href="https://appstoreconnect.apple.com/apps" target="_blank" rel="noopener noreferrer">App Store Connect Apps</a></li>
+<li><a href="https://developer.apple.com/account/resources/identifiers/list" target="_blank" rel="noopener noreferrer">Apple Developer Portal - Identifiers</a></li>
+</ul>
+<p>It&#x27;s your iOS app&#x27;s bundle identifier, e.g., <code>com.demo.customer</code>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-environment">3. Environment<a href="#3-environment" class="hash-link" aria-label="Direct link to 3. Environment" title="Direct link to 3. Environment">​</a></h3>
+<ul>
+<li><strong>Sandbox (Testing):</strong> Use this during development/testing.</li>
+<li><strong>Production:</strong> Switch to this when your app is live on the App Store.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-app-store-server-notifications-url">4. App Store Server Notifications URL<a href="#4-app-store-server-notifications-url" class="hash-link" aria-label="Direct link to 4. App Store Server Notifications URL" title="Direct link to 4. App Store Server Notifications URL">​</a></h3>
+<p><strong>Where:</strong> App Store Connect → Apps → [Your App] → App Information → App Store Server Notifications<br>
+<strong>Link:</strong> <a href="https://appstoreconnect.apple.com/apps" target="_blank" rel="noopener noreferrer">App Store Connect</a> → select your app → <strong>App Information</strong> (left sidebar) → scroll to <strong>App Store Server Notifications</strong>.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Set the <strong>Production Server URL</strong> and <strong>Sandbox Server URL</strong> to the webhook URL shown in your settings panel (replace <code>127.0.0.1:8000</code> with your actual production domain).</li>
+<li>Select <strong>Version 2</strong> for notifications (recommended).</li>
+</ol>
+<hr>
+<p><strong>Important Notes:</strong></p>
+<ul>
+<li>You need an Apple Developer Program membership ($99/year): <a href="https://developer.apple.com/programs/" target="_blank" rel="noopener noreferrer">Apple Developer Programs</a></li>
+<li>The API key must be of type <strong>In-App Purchase</strong> (not App Store Connect team keys).</li>
+<li>For production, your webhook URL must be <strong>HTTPS</strong> on a public domain — <code>127.0.0.1</code> won&#x27;t work.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="store-credit">Store Credit<a href="#store-credit" class="hash-link" aria-label="Direct link to Store Credit" title="Direct link to Store Credit">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Store Credit" src="/elms-doc/assets/images/store_credit-555c627c2a51bf73581910e59465bbf6.png" width="1886" height="792" class="img_ev3q"></p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/elms-doc/admin-panel/app-settings/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">App Settings</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/elms-doc/admin-panel/supervisor-setup/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Supervisor Setup</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#stripe" class="table-of-contents__link toc-highlight">Stripe</a></li><li><a href="#razorpay" class="table-of-contents__link toc-highlight">Razorpay</a></li><li><a href="#flutterwave" class="table-of-contents__link toc-highlight">Flutterwave</a></li><li><a href="#apple-pay--app-store" class="table-of-contents__link toc-highlight">Apple Pay / App Store</a><ul><li><a href="#1-issuer-id-key-id-and-private-key-p8" class="table-of-contents__link toc-highlight">1. Issuer ID, Key ID, and Private Key (.p8)</a></li><li><a href="#2-bundle-id" class="table-of-contents__link toc-highlight">2. Bundle ID</a></li><li><a href="#3-environment" class="table-of-contents__link toc-highlight">3. Environment</a></li><li><a href="#4-app-store-server-notifications-url" class="table-of-contents__link toc-highlight">4. App Store Server Notifications URL</a></li></ul></li><li><a href="#store-credit" class="table-of-contents__link toc-highlight">Store Credit</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 WRTeam. All rights reserved.</div></div></div></footer></div>
 </body>
 </html>
