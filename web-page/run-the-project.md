@@ -2,7 +2,7 @@
 sidebar_position: 13
 ---
 
-# How to run this project locally
+# Run this project locally
 
 1. Unzip the downloaded code. After unzipping you will have News - Web Code Folder.
 

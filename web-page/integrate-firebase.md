@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# How to Connect Firebase with your Web
+# Connect Firebase with your Web
 
 1. First you need to create a Web project inside your Firebase Project.  
    For that open your firebase project in console and click on this tiny web icon:

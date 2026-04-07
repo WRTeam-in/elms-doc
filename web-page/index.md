@@ -3,12 +3,17 @@ sidebar_position: 1
 ---
 import DocBanner from '@site/src/components/doc-banner/DocBanner';
 
-
 # Introduction
-
 <DocBanner />
 
 ##
+
+Thank you for purchasing **eLMS**. We appreciate your support. In this documentation, you will find instructions on how to set up the mobile application for eLMS. This document also provides features of eLMS.
+
+## Contact Information
+
+**By:** WRTeam  
+**Email:** [mohan.shreesoftech@gmail.com](mailto:mohan.shreesoftech@gmail.com)
 
 This guide will walk you through deploying the Web application.
 

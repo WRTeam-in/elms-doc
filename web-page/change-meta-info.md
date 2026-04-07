@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# How to change Meta Information
+# Change Meta Information
 
 To change the meta information for your Web application:
 

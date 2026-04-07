@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Where to Set API URL (Admin) and Web URL
+# Setup API URL 
 
 API URL is your admin panel URL which is used to fetch the data from admin panel.
 

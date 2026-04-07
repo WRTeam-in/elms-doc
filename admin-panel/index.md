@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 import DocBanner from '@site/src/components/doc-banner/DocBanner';
 
-# Admin Panel
+# Introduction
 
 <DocBanner />
 
@@ -14,7 +14,7 @@ Thank you for purchasing **eLMS**. We appreciate your support. In this documenta
 ## Contact Information
 
 **By:** WRTeam  
-**Email:** [wrteam.vijya@gmail.com](mailto:wrteam.vijya@gmail.com)
+**Email:** [purnima.wrteam@gmail.com](mailto:purnima.wrteam@gmail.com)
 
 ## About This Documentation
 

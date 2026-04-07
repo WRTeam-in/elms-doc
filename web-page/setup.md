@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# How to setup Web Version
+# Setup Web Version
 
 ## Install Node.js
 

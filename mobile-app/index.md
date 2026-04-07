@@ -4,7 +4,7 @@ sidebar_position: 1
 
 import DocBanner from '@site/src/components/doc-banner/DocBanner';
 
-# Mobile Application
+# Introduction
 
 <DocBanner />
 

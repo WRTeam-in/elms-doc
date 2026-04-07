@@ -2,7 +2,7 @@
 sidebar_position: 11
 ---
 
-# How to On Maintenance Mode
+# Toggle Maintenance Mode
 
 1. Go to admin panel **system-settings -> general-settings**
 
