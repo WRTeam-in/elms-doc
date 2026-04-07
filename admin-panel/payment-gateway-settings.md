@@ -32,7 +32,7 @@ sidebar_position: 7
 ![Flutterwave](../static/images/admin/13.png)
 3. Docs - https://developer.flutterwave.com/docs/getting-started?_gl=1*1xkvvzx*_gcl_au*MTQxNjg3NzkzOC4xNzY0MjU2Nzg1*_ga*MTg3MTEwMDMzNy4xNzY0MjMwNzI5*_ga_KQ9NSEMFCF*czE3NjQyNTY3NDgkbzEkZzEkdDE3NjQyNTY3ODUkajIzJGwwJGgw 
 
-## Apple Pay / App Store
+## App Store/ In App Purchase
 
 ### 1. Issuer ID, Key ID, and Private Key (.p8)
 
