@@ -10,7 +10,6 @@ This section covers all features available to administrators and authorised staf
 
 | Feature | Description |
 |---------|-------------|
-| [Header Options](./header-options) | Sidebar toggle, notifications, dark mode, language settings, and account options available in the global header. |
 | [Dashboard](./dashboard) | Key statistics, metrics, charts, and activity feed with a real-time data refresh option. |
 | [User Management](./user-management) | Manage learners, instructors (multi-instructor mode), and admin staff with configurable permissions. |
 | [Course Management](./course-management) | Global course configuration, categories, admin course creation, and instructor course request review. |
@@ -21,3 +20,4 @@ This section covers all features available to administrators and authorised staf
 | [Announcements](./announcements) | Send FCM push notifications to users with a title, message, optional image, and notification type. |
 | [Settings](./settings) | One-time platform configuration including system settings, payment gateways, and integrations. |
 | [Help Desk](./help-desk) | Manage community groups with privacy controls, moderation, and reordering options. |
+| [Header Options](./header-options) | Sidebar toggle, notifications, dark mode, language settings, and account options available in the global header. |

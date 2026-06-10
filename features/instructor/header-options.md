@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 11
 ---
 
 # Header Options
@@ -8,13 +8,19 @@ The header section provides instructors with quick access to important global an
 
 ### Notifications
 
+![Notifications](../../static/images/web/header_notification.png)
+
 The notifications icon displays up to the latest four notifications directly from the header, along with a **View All** option to access the complete notifications listing page.
 
 ### Language Changer
 
+![Language Changer](../../static/images/web/language.png)
+
 Allows instructors to switch between the available platform languages and translation configurations added by the admin.
 
 ### Profile Options
+
+![Profile Options](../../static/images/web/profile.png)
 
 The profile menu displays the instructor's profile image, name, and email address, along with the following shortcuts:
 

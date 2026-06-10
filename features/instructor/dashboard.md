@@ -1,8 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Dashboard
+
+![Instructor Dashboard](../../static/images/web/dashboard.png)
 
 The Instructor Dashboard provides instructors and team instructors with a complete overview of their courses, earnings, student engagement, and platform activities. It serves as the main control panel for monitoring instructor-related performance and course data.
 

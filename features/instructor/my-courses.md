@@ -1,8 +1,10 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # My Courses
+
+![My Courses](../../static/images/web/my_courses.png)
 
 The My Courses page allows instructors and team instructors to manage all their created courses from a single place. It provides course statistics, management actions, and a detailed listing of all courses.
 
