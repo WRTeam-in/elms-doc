@@ -15,7 +15,7 @@ Thank you for purchasing **eLMS**. We appreciate your support. In this documenta
 ## Contact Information
 
 **By:** WRTeam  
-**Email:** [wrteam.anish@gmail.com](mailto:wrteam.anish@gmail.com)
+**Email:** [harshwrteam@gmail.com](mailto:harshwrteam@gmail.com)
 
 ## About This Documentation
 

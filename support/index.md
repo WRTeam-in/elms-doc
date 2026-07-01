@@ -10,7 +10,7 @@ At WRTeam, we're committed to providing exceptional support for all our users. W
 |----------------|---------|
 | **Support Email** | [support@wrteam.in](mailto:support@wrteam.in) |
 | **Microsoft Teams** | [Join our support channel](https://teams.live.com/l/invite/FEA_pVt_YkQyYT17QY?v=g1) |
-| **Personal Email** | [wrteam.anish@gmail.com](mailto:wrteam.anish@gmail.com) |
+| **Personal Email** | [harshwrteam@gmail.com](mailto:harshwrteam@gmail.com) |
 
 ## Support Hours
 

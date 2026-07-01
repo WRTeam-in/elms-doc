@@ -12,7 +12,7 @@ Welcome to the comprehensive documentation for **eLMS** (e-Learning Management S
 eLMS is a complete e-Learning Management System that provides a robust platform for online education. This documentation is designed to help you get started quickly and make the most of all the features eLMS has to offer.
 
 **By:** WRTeam
-**Email:** [wrteam.anish@gmail.com](mailto:wrteam.anish@gmail.com)
+**Email:** [harshwrteam@gmail.com](mailto:harshwrteam@gmail.com)
 **Website:** [https://www.wrteam.in/](https://www.wrteam.in/)
 
 ---
@@ -82,7 +82,7 @@ Step-by-step guide for deploying and customizing the eLMS web application.
 
 If you have any questions or encounter any issues, please don't hesitate to reach out:
 
-- **Email:** [wrteam.anish@gmail.com](mailto:wrteam.anish@gmail.com)
+- **Email:** [harshwrteam@gmail.com](mailto:harshwrteam@gmail.com)
 - **Website:** [https://www.wrteam.in/](https://www.wrteam.in/)
 
 ---
