@@ -14,3 +14,5 @@ Users can view complete course information from the course details page. The fol
 - Free preview lectures and curriculum contents accessible before enrollment.
 
 In multi-instructor mode, the instructor details section is also shown, including the instructor's profile, ratings, biography, qualifications, and skills.
+
+![Course Details](/images/features/user/course-details-page.png)

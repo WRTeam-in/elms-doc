@@ -9,8 +9,25 @@ Course content is organised into chapters, with each chapter containing multiple
 **Supported curriculum item types:**
 
 - **Video Lecture** – Marked as completed after the video has been watched fully.
+
+![Video Lecture](/images/features/user/videoplayer.png)
+
 - **Resource / File** – Marked as completed after the file is downloaded.
+
+![All Assignments](/images/features/user/all-assignment.png)
+
 - **Quiz** – Marked as completed after the quiz is successfully passed.
-- **Assignment** – Marked as completed after submission. The course certificate will only be available for download once the submission has been approved by the instructor.
+
+![Quiz](/images/features/user/quiz.png)
+
+- **Assignment** – Marked as completed after submission. The course certificate will only be available for download once the submission has been approved by the instructor. 
+
+![Current Assignment](/images/features/user/current-assignment.png)
 
 Once all chapters and their curriculum items are completed, the course is marked as completed and the certificate becomes available for download.
+
+
+
+
+
+

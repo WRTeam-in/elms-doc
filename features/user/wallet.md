@@ -16,3 +16,5 @@ Users can access the wallet page to view their wallet balance, withdrawable bala
 Withdrawal requests require bank details to be on file and are shown in wallet transactions along with their request details.
 
 For iOS applications, payment gateways are not supported. Users can add wallet balance only through predefined in-app purchase packages. Balance added via iOS in-app purchases is non-withdrawable, while other wallet earnings remain withdrawable.
+
+![My Wallet](/images/features/user/my-wallet.png)

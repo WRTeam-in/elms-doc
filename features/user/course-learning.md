@@ -12,3 +12,7 @@ Users can access the learning page after enrolling in a course. The learning pag
 - **Assignment** – Shows assignment details, the user's submissions, instructor feedback, and approval status.
 - **Reviews** – Displays course ratings and allows enrolled users to submit a review.
 - **Certificate** – Tracks completion requirements and allows certificate download once all conditions are met. Free courses can optionally have paid certificates.
+
+![Resources & Files](/images/features/user/resource-and-file.png)
+
+
