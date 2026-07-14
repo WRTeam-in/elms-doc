@@ -22,3 +22,4 @@ The home page of the application and website showcases the following content:
 
 ![Offer Image](/images/features/user/offer.png)
 
+//
