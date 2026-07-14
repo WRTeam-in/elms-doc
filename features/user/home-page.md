@@ -21,5 +21,3 @@ The home page of the application and website showcases the following content:
 - **Offer Image** – An image that the admin adds as part of a featured section, displayed as a visual offer block.
 
 ![Offer Image](/images/features/user/offer.png)
-
-//
