@@ -80,6 +80,15 @@ const config = {
         sidebarItemsGenerator: async () => [],
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'changelog',
+        path: 'changelog',
+        routeBasePath: 'changelog',
+        sidebarItemsGenerator: async () => [],
+      },
+    ],
   ],
 
   presets: [
@@ -141,6 +150,13 @@ const config = {
             type: 'doc',
             position: 'left',
             label: 'Support',
+          },
+          {
+            docId: 'index',
+            docsPluginId: 'changelog',
+            type: 'doc',
+            position: 'left',
+            label: 'Changelog',
           },
           {
             type: "search",
