@@ -17,6 +17,7 @@ This section covers all features available to students and learners accessing th
 | [Course Enrollment & Orders](./enrollment-orders) | Enroll in free courses or purchase paid courses individually or through the cart with coupon support. |
 | [Course Learning](./course-learning) | Access the course player, track progress, download resources, and interact with course content. |
 | [Curriculum & Completion](./curriculum-completion) | Navigate chapters and curriculum items with sequential or open completion modes and certificate earning. |
+| [Live Class](./live-class) | Participate in scheduled interactive live classes with instructors. |
 | [Instructors](./instructors) | Discover instructors through the listing and profile pages in multi-instructor mode. |
 | [My Wallet](./wallet) | View wallet balance, transaction history, withdrawal requests, and commission payouts. |
 | [My Purchases & Refunds](./purchases-refunds) | Review purchase history, download invoices, and submit refund requests for eligible courses. |

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 # Help & Support
@@ -17,3 +17,5 @@ Users can access the Help & Support section to explore FAQs, search support topi
 - **FAQs** – Available for quick access to common queries and support information.
 
 ![FAQ](/images/features/user/faq.png)
+
+- **Flag Comments** – Users can flag or report comments in discussions that are inappropriate or violate community guidelines.
