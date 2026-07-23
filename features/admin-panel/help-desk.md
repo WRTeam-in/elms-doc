@@ -33,3 +33,15 @@ Allows the admin to view all questions posted by users across all groups. The ad
 Admins can view other users' replies within question threads, as well as add their own replies.
 
 ![Reply Details](../../static/images/admin/reply_details.png)
+
+### Report Reasons
+
+![Report Reasons](../../static/images/admin/report_reasons.png)
+
+Admin can create and manage dynamic report reasons for Helpdesk and Course Discussions. These reasons will be available for users when reporting content. Admin can also edit or delete report reasons at any time.
+
+### Reported Content
+
+![Reported Content](../../static/images/admin/reported_helpdesk.png)
+
+Admin can view and manage reported content from here. Users can report questions, replies, and group posts for various reasons. The admin can review the reported content along with the reason and reporter information, and take appropriate action such as deleting the content or banning the user.

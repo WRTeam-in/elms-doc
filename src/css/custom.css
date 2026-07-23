@@ -55,3 +55,66 @@ html[data-theme='light'] .markdown img {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.02);
   border-radius: 6px;
 }
+
+/* Custom details accordion styling matching theme color */
+details {
+  background-color: rgba(90, 91, 181, 0.04) !important;
+  border: 1px solid var(--ifm-color-primary-lighter) !important;
+  border-radius: 6px !important;
+  padding: 0.8rem 1rem !important;
+  margin-bottom: 1rem !important;
+  --docusaurus-details-decoration-color: var(--ifm-color-primary) !important;
+}
+
+[data-theme='dark'] details {
+  background-color: rgba(127, 128, 221, 0.12) !important;
+  border: 1px solid var(--ifm-color-primary-darker) !important;
+}
+
+details[open] {
+  border-color: var(--ifm-color-primary) !important;
+}
+
+details summary {
+  font-weight: 600;
+  color: var(--ifm-color-primary) !important;
+  cursor: pointer;
+}
+
+details summary::marker,
+details summary::-webkit-details-marker {
+  color: var(--ifm-color-primary) !important;
+}
+
+details>summary::before {
+  border-color: transparent transparent transparent var(--ifm-color-primary) !important;
+}
+
+[data-theme='dark'] details summary {
+  color: var(--ifm-color-primary-lightest) !important;
+}
+
+[data-theme='dark'] details summary::marker,
+[data-theme='dark'] details summary::-webkit-details-marker {
+  color: var(--ifm-color-primary-lightest) !important;
+}
+
+[data-theme='dark'] details>summary::before {
+  border-color: transparent transparent transparent var(--ifm-color-primary-lightest) !important;
+}
+
+details[open] summary {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Inner content divider line */
+details [class*='collapsibleContent'] {
+  margin-top: 1rem;
+  border-top: 1px solid var(--ifm-color-primary-lighter) !important;
+  padding-top: 1rem;
+}
+
+[data-theme='dark'] details [class*='collapsibleContent'] {
+  border-top: 1px solid var(--ifm-color-primary-darker) !important;
+}

@@ -42,6 +42,67 @@ Admins can create their own platform courses from this section by entering all r
 
 Allows the admin to view all courses with options to filter by status or instructor. Actions include editing or deleting a course. Deletion is a soft-delete, meaning the course can be restored from the trashed courses list or permanently deleted from the trash. A quick action button also provides a shortcut to the Create Course screen.
 
+### Course Curriculum
+
+![Course Curriculum](../../static/images/admin/course_curriculum.png)
+
+Admin can create curriculum for courses in which they can add Video Lectures, Assignment, Quizzes and Resources.
+
+### Video Lecture
+
+![Video Lecture](../../static/images/admin/add_lecture.png)
+
+Admins can upload video lectures directly or embed external links from platforms like YouTube or Vimeo. Each lecture can include supplementary downloadable files, title, duration details, and optional preview settings for prospective students.
+
+### Assignment
+
+![Assignment](../../static/images/admin/add_assignment.png)
+
+Assignments can be configured with clear instructions, and maximum score limits. Admins can attach supporting documents or video instructions, while enabling text or file upload responses from students for evaluation.
+
+### Quiz
+
+![Quiz](../../static/images/admin/add_quiz.png)
+
+Quizzes allow admins to evaluate student learning progress with time limits, passing scores, and attempt limits. Instructors can structure multi-question quizzes with customizable scoring and automated feedback upon submission.
+
+
+### Add Question
+
+![Quiz Text Question](../../static/images/admin/quiz_text.png)
+
+![Quiz LaTeX Question](../../static/images/admin/quiz_latext.png)
+
+Admins can create custom quiz questions supporting single or multiple correct answers, attached images, and optional explanation notes for learners. Standard text-based questions can be configured alongside advanced mathematical and scientific questions using LaTeX formatting for formulas and equations.
+
+
+### Resources
+
+![Resources](../../static/images/admin/add_resource.png)
+
+Additional learning materials such as PDF guides, slide decks, external reference links, and code files can be organized under resources. These materials provide students with complementary study assets accessible alongside course chapters.
+
+### Course Discussion
+
+![Course Discussion](../../static/images/admin/course_discussion.png)
+
+Admin can view all course discussions, add questions and replies, and manage discussion threads. Admin can also easily review and delete reported discussions based on user reports.
+
+
+### Course Discussion Reports
+
+![Course Discussion Reports](../../static/images/admin/reported_discussions.png)
+
+Admin can view and manage reported course discussions from here. Users can report questions, replies, and group posts for various reasons. The admin can review the reported content along with the reason and reporter information, and take appropriate action such as deleting the content or banning the user.
+
+
+### Live Class
+
+![Live Class](../../static/images/admin/live_class.png)
+
+Admin can create live classes for their own courses and view live classes created by instructors, along with detailed statistics and analytics.
+
+
 ### Course Chapters
 
 ![Course Chapters](../../static/images/admin/course-chapters_course.png)
