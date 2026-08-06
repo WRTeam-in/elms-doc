@@ -44,4 +44,4 @@ sidebar_position: 5
 
 ---
 Additional Resources:
-For detailed Firebase setup and configuration: [Firebase Setup Guide](https://wrteam-in.github.io/common_app_doc/GeneralSettings/firebase/)
+For detailed Firebase setup and configuration: [Firebase Setup Guide](https://www.marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/firebase/)
