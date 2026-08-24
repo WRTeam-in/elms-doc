@@ -11,11 +11,29 @@ Welcome to the eLMS ChangeLog! This section documents all the important changes,
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
-| 1.2.0         | 3.44.6         | 2.3.21        | 8.11.1      | 9.5.1                    | 17          |
+| 1.3.0          | 3.44.8         | 2.3.21        | 8.11.1      | 9.5.1                    | 17          |
+| 1.2.0          | 3.44.6         | 2.3.21        | 8.11.1      | 9.5.1                    | 17          |
 
 ## Version History
 
 <details open>
+<summary>Version 1.3.0 (Updated on 24 Aug 2026)</summary>
+
+- [Added] Custom Certificate Template Builder [Panels]
+- [Added] Global Certificate Verification with public links and QR codes [Web]
+- [Added] Co-instructors in instructor listings for team-based courses [Web, App]
+- [Added] Admin Instructor Profile management [Panel, Web, App]
+- [Added] Dynamic primary colour from Admin Panel settings [App]
+- [Improved] Course creation and data handling flow [Panels]
+- [Improved] Login, Settings, and Web Settings page UI [Panel]
+- [Improved] Quiz attempts and results experience [Web, App]
+- [Improved] Assignment submission details in course player [Web, App]
+- [Improved] Migrated Android codebase from Java to Kotlin [App]
+- [Improved] Overall performance and stability [Web, App, Panel]
+
+</details>
+
+<details>
 <summary>Version 1.2.0 (Updated on 21 Jul 2026)</summary>
 
 - [Added] Live Classes with external meeting links [Web, App, Panel]
