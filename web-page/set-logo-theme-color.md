@@ -18,7 +18,7 @@ To change favicon, logo, theme color, footer description, maintenance mode, syst
 
 ![Favicon](/images/web/settings2.png)
 
-# Set Favicon Icon
+## Set Favicon Icon
 
 A favicon is a small icon that appears in browser tabs and bookmarks for your website.
 
@@ -30,13 +30,13 @@ A favicon is a small icon that appears in browser tabs and bookmarks for your we
 
 ![Favicon](/images/web/favicon.png)
 
-# Change contact details
+## Change contact details
 
 1. Go to admin panel **settings -> system-settings**
 
 ![Favicon](/images/web/contact-details.png)
 
-# Add Social Media Link and its Icon
+## Add Social Media Link and its Icon
 
 
 1. Go to admin panel **settings -> system-settings**
