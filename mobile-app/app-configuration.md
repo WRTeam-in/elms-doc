@@ -6,14 +6,18 @@ sidebar_position: 3
 
 This guide explains how to change the app name, package name, and other configuration settings for the ELMS Flutter application.
 
+:::info Package Name Change Guide
+For a general, step-by-step walkthrough of changing a Flutter app's package name (including the automated `change_app_package_name` package), see the [Package Name Change Guide](https://marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/packagename).
+:::
+
 ## Overview
 
-The ELMS app uses centralized configuration files for managing app settings across platforms:
-- **Android**: `android/config.gradle`
+The ELMS app manages app settings across platforms using the following files:
+- **Android**: `android/app/build.gradle.kts` and `android/app/src/main/AndroidManifest.xml`
 - **iOS**: `ios/Runner/AppConfig.xcconfig`
 - **In-App**: `lib/core/configs/app_settings.dart`
 
-This approach ensures consistent configuration across your app and makes changes easier to manage.
+Android no longer uses a centralized `config.gradle` file. The app name, package name, and deep link schema are now set directly in `build.gradle.kts` and `AndroidManifest.xml`.
 
 ---
 
@@ -22,20 +26,20 @@ This approach ensures consistent configuration across your app and makes changes
 ### App Name
 - **Current Value**: `eLMS`
 - **Locations**:
-  - Android: `android/config.gradle`
+  - Android: `android/app/src/main/AndroidManifest.xml` (`android:label`)
   - iOS: `ios/Runner/AppConfig.xcconfig`
   - In-App: `lib/core/configs/app_settings.dart`
 
 ### Package Name
 - **Current Value**: `com.wrteam.elms`
 - **Locations**:
-  - Android: `android/config.gradle`
+  - Android: `android/app/build.gradle.kts` (`namespace` and `applicationId`)
   - iOS: Set via Xcode (Bundle Identifier)
 
 ### Deep Link Schema
 - **Current Value**: `elms`
 - **Locations**:
-  - Android: `android/config.gradle`
+  - Android: `android/app/src/main/AndroidManifest.xml` (intent-filter `android:scheme`)
   - iOS: `ios/Runner/AppConfig.xcconfig`
 
 ---
@@ -44,15 +48,19 @@ This approach ensures consistent configuration across your app and makes changes
 
 ### Step 1: Update Android Configuration
 
-1. Open `android/config.gradle`
-2. Change `APP_NAME`:
-   ```gradle
-   ext.APP_NAME = "Your App Name"
+1. Open `android/app/src/main/AndroidManifest.xml`
+2. Change the `android:label` attribute on the `<application>` tag:
+   ```xml
+   <application
+       android:label="Your App Name"
+       ...>
    ```
 
 **Example:**
-```gradle
-ext.APP_NAME = "My Learning App"
+```xml
+<application
+    android:label="My Learning App"
+    ...>
 ```
 
 ### Step 2: Update iOS Configuration
@@ -105,15 +113,29 @@ flutter run
 
 ### Step 1: Update Android Package Name
 
-1. Open `android/config.gradle`
-2. Change `PACKAGE_NAME`:
-   ```gradle
-   ext.PACKAGE_NAME = "com.yourcompany.yourapp"
+1. Open `android/app/build.gradle.kts`
+2. Change both `namespace` and `applicationId` under the `android` block:
+   ```kotlin
+   android {
+       namespace = "com.yourcompany.yourapp"
+       ...
+       defaultConfig {
+           applicationId = "com.yourcompany.yourapp"
+           ...
+       }
+   }
    ```
 
 **Example:**
-```gradle
-ext.PACKAGE_NAME = "com.mycompany.learningapp"
+```kotlin
+android {
+    namespace = "com.mycompany.learningapp"
+    ...
+    defaultConfig {
+        applicationId = "com.mycompany.learningapp"
+        ...
+    }
+}
 ```
 
 **Note:** Package names must:
@@ -162,21 +184,30 @@ flutter pub get
 flutter run
 ```
 
+**See also:** [Package Name Change Guide](https://marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/packagename) — covers naming conventions, best practices, and the automated `change_app_package_name` package as an alternative to manual edits.
+
 ---
 
 ## How to Change Deep Link Schema
 
 ### Step 1: Update Android Deep Link
 
-1. Open `android/config.gradle`
-2. Change `DEEP_LINK_SCHEMA`:
-   ```gradle
-   ext.DEEP_LINK_SCHEMA = "yourschema"
+1. Open `android/app/src/main/AndroidManifest.xml`
+2. Find the "Deep Link Intent Filter" block inside the `MainActivity` and change the `android:scheme` value:
+   ```xml
+   <intent-filter android:autoVerify="true">
+       <action android:name="android.intent.action.VIEW"/>
+       <category android:name="android.intent.category.DEFAULT"/>
+       <category android:name="android.intent.category.BROWSABLE"/>
+
+       <!-- Custom scheme: yourschema://... -->
+       <data android:scheme="yourschema"/>
+   </intent-filter>
    ```
 
 **Example:**
-```gradle
-ext.DEEP_LINK_SCHEMA = "mylearningapp"
+```xml
+<data android:scheme="mylearningapp"/>
 ```
 
 ### Step 2: Update iOS Deep Link
@@ -206,9 +237,9 @@ flutter run
 
 | Setting | Android File | iOS File | In-App File |
 |---------|-------------|----------|-------------|
-| App Name | `android/config.gradle` | `ios/Runner/AppConfig.xcconfig` | `lib/core/configs/app_settings.dart` |
-| Package Name | `android/config.gradle` | Xcode → Bundle Identifier | N/A |
-| Deep Link Schema | `android/config.gradle` | `ios/Runner/AppConfig.xcconfig` | N/A |
+| App Name | `android/app/src/main/AndroidManifest.xml` (`android:label`) | `ios/Runner/AppConfig.xcconfig` | `lib/core/configs/app_settings.dart` |
+| Package Name | `android/app/build.gradle.kts` (`namespace` / `applicationId`) | Xcode → Bundle Identifier | N/A |
+| Deep Link Schema | `android/app/src/main/AndroidManifest.xml` (intent-filter `android:scheme`) | `ios/Runner/AppConfig.xcconfig` | N/A |
 
 ---
 
@@ -216,14 +247,11 @@ flutter run
 
 ### Android Configuration Flow
 
+Android configuration values are set directly in each file — there is no shared `config.gradle` or variable injection step:
+
 ```
-android/config.gradle (defines variables)
-         ↓
-android/app/build.gradle (reads variables via rootProject.ext)
-         ↓
-manifestPlaceholders (injects into AndroidManifest.xml)
-         ↓
-android/app/src/main/AndroidManifest.xml (uses ${PLACEHOLDER})
+android/app/build.gradle.kts (namespace, applicationId set directly)
+android/app/src/main/AndroidManifest.xml (android:label and deep link scheme set directly)
 ```
 
 ### iOS Configuration Flow
@@ -283,7 +311,7 @@ flutter run
 - You saved all files after editing
 - No extra spaces or special characters in configuration values
 - iOS xcconfig file doesn't have quotes around values
-- Android gradle file has quotes around string values
+- Android `build.gradle.kts` and `AndroidManifest.xml` values are wrapped in double quotes
 
 ---
 
@@ -291,13 +319,13 @@ flutter run
 
 When setting up a new app from ELMS template:
 
-- [ ] Change `APP_NAME` in `android/config.gradle`
+- [ ] Change `android:label` in `android/app/src/main/AndroidManifest.xml`
 - [ ] Change `APP_NAME` in `ios/Runner/AppConfig.xcconfig`
 - [ ] Change `appName` in `lib/core/configs/app_settings.dart`
-- [ ] Change `PACKAGE_NAME` in `android/config.gradle`
+- [ ] Change `namespace` and `applicationId` in `android/app/build.gradle.kts`
 - [ ] Change Bundle Identifier in Xcode
 - [ ] Update MainActivity.kt package declaration and file path
-- [ ] Change `DEEP_LINK_SCHEMA` in both config files (optional)
+- [ ] Change the deep link `android:scheme` in `AndroidManifest.xml` and `DEEP_LINK_SCHEMA` in `AppConfig.xcconfig` (optional)
 - [ ] Run `flutter clean && cd ios && pod install && cd .. && flutter pub get`
 - [ ] Test on both Android and iOS devices
 - [ ] Verify app name appears correctly on home screen
@@ -328,9 +356,11 @@ These should be updated when setting up Firebase and Google Sign-In for your app
 
 ## Legacy Note
 
-Previous versions of this documentation recommended using the `rename` package or `change_app_package_name` tools. The current configuration approach is preferred because:
-- ✅ Single source of truth for each platform
+Previous versions of this documentation recommended using the `rename` package or `change_app_package_name` tools, and later a centralized `android/config.gradle` file shared by Gradle and the manifest via `manifestPlaceholders`.
+
+The `config.gradle` file has since been removed. Android configuration values (app name, package name, deep link scheme) are now set directly in `android/app/build.gradle.kts` and `android/app/src/main/AndroidManifest.xml`. This current approach is preferred because:
+- ✅ No indirection through shared variables or placeholders
 - ✅ No dependency on external packages
-- ✅ Better control over configuration
+- ✅ Values are visible directly in the file that uses them
 - ✅ Easier to understand and maintain
-- ✅ Works reliably across Flutter updates
+- ✅ Works reliably across Flutter and Android Gradle Plugin updates

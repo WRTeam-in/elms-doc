@@ -6,11 +6,16 @@ sidebar_position: 8
 
 This guide explains how to update branding assets (logos and icons) for the ELMS Flutter application.
 
+:::info App Icon Guide
+For a general walkthrough of changing a Flutter app's icon (automated and manual methods), see the [App Icon Guide](https://marketplace.wrteam.in/docs/flutter-common-doc/GeneralSettings/appicon).
+:::
+
 ## Current Asset Structure
 
 The ELMS app has the following asset organization:
 
 - **Icons and logos**: `assets/icons/`
+- **Launcher icon source files**: `assets/logo/`
 - **General images**: `assets/images/`
 - **Illustrators**: `assets/images/illustrators/`
 
@@ -19,7 +24,9 @@ The ELMS app has the following asset organization:
 | File | Location | Usage |
 |------|----------|-------|
 | `splash_logo.svg` | `assets/icons/` | App logo used in splash screen, referenced as `AppIcons.appLogo` |
-| Launcher icons | `android/app/src/main/res/mipmap-*/` and `ios/Runner/Assets.xcassets/AppIcon.appiconset/` | Device home screen icons |
+| `ic_launcher.png` | `assets/logo/` | Source icon used by `flutter_launcher_icons` to generate the device home screen icon |
+| `ic_launcher_foreground.png` | `assets/logo/` | Foreground layer for Android adaptive icons (background color set via `adaptive_icon_background` in `pubspec.yaml`) |
+| Launcher icons (generated) | `android/app/src/main/res/mipmap-*/` and `ios/Runner/Assets.xcassets/AppIcon.appiconset/` | Device home screen icons |
 
 ### Current Illustrator Assets
 
@@ -68,40 +75,32 @@ flutter run
 
 This method updates the app icon shown on device home screens using an automated tool.
 
-### Step 1: Install flutter_launcher_icons
+The `flutter_launcher_icons` package is **already added** to `pubspec.yaml` and pre-configured, so you don't need to install or set it up — just replace the source icon files and regenerate.
 
-Add to `pubspec.yaml` under `dev_dependencies`:
+### Step 1: Current Configuration
 
-```yaml
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^5.0.0
-  flutter_launcher_icons: ^0.14.2  # Add this line
-```
-
-### Step 2: Configure Icon Generation
-
-Add this configuration at the end of `pubspec.yaml`:
+`pubspec.yaml` already contains:
 
 ```yaml
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/icons/ic_launcher.png"
-  adaptive_icon_background: "#FFFFFF"  # Change to your brand color
-  adaptive_icon_foreground: "assets/icons/ic_launcher_transparent.png"
+  image_path: "assets/logo/ic_launcher.png"
+  adaptive_icon_background: "#673AB7"  # Current brand color
+  adaptive_icon_foreground: "assets/logo/ic_launcher_foreground.png"
   remove_alpha_ios: true
 ```
 
-### Step 3: Prepare Icon Files
+**Note:** `adaptive_icon_background` should match the app's current brand color. If you change the brand color (see [Change App Theme](./change-app-theme)), update this value too so the launcher icon's background stays consistent with the in-app theme.
 
-Create two icon files in `assets/icons/`:
+### Step 2: Replace Icon Files
+
+Replace the two existing icon files in `assets/logo/` with your own (keep the same filenames):
 
 1. **`ic_launcher.png`** - Square logo (1024x1024px recommended, solid background)
-2. **`ic_launcher_transparent.png`** - Logo with transparent background (for Android adaptive icons)
+2. **`ic_launcher_foreground.png`** - Logo with transparent background (for Android adaptive icons)
 
-### Step 4: Generate Icons
+### Step 3: Generate Icons
 
 ```sh
 flutter pub get
@@ -110,7 +109,7 @@ dart run flutter_launcher_icons
 
 This automatically generates all required icon sizes for Android and iOS.
 
-### Step 5: Test
+### Step 4: Test
 
 ```sh
 flutter clean
@@ -231,10 +230,9 @@ The app uses `awesome_notifications` package. If you need to update notification
 - [ ] Test splash screen shows new logo
 
 ### For Launcher Icons:
-- [ ] Create `assets/icons/ic_launcher.png` (1024x1024)
-- [ ] Create `assets/icons/ic_launcher_transparent.png`
-- [ ] Add `flutter_launcher_icons` to `pubspec.yaml`
-- [ ] Configure `flutter_launcher_icons` settings
+- [ ] Replace `assets/logo/ic_launcher.png` (1024x1024)
+- [ ] Replace `assets/logo/ic_launcher_foreground.png`
+- [ ] Update `adaptive_icon_background` in `pubspec.yaml` if your brand color changed
 - [ ] Run `flutter pub get`
 - [ ] Run `dart run flutter_launcher_icons`
 - [ ] Run `flutter clean && flutter pub get && flutter run`
@@ -246,9 +244,11 @@ The app uses `awesome_notifications` package. If you need to update notification
 
 | Asset Type | Current Location |
 |------------|-----------------|
-| App logo (in-app) | `assets/icons/splash_logo.svg` |
+| App logo (in-app, splash screen) | `assets/icons/splash_logo.svg` |
 | App icons reference | `lib/core/constants/app_icons.dart` |
-| Android launcher icons | `android/app/src/main/res/mipmap-*/` |
-| iOS launcher icons | `ios/Runner/Assets.xcassets/AppIcon.appiconset/` |
+| Launcher icon source files | `assets/logo/ic_launcher.png`, `assets/logo/ic_launcher_foreground.png` |
+| Launcher icon generator config | `pubspec.yaml` (`flutter_launcher_icons:` section) |
+| Android launcher icons (generated) | `android/app/src/main/res/mipmap-*/` |
+| iOS launcher icons (generated) | `ios/Runner/Assets.xcassets/AppIcon.appiconset/` |
 | Illustrators | `assets/images/illustrators/` |
 | Onboarding images | `assets/icons/onboarding_*.svg` |

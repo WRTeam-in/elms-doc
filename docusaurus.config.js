@@ -109,11 +109,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'images/logo/transparent_logo.svg',
+      image: 'images/logo/transparent_logo.png',
       navbar: {
         logo: {
           alt: 'eLMS Logo',
-          src: 'images/logo/transparent_logo.svg',
+          src: 'images/logo/transparent_logo.png',
         },
         items: [
           {
