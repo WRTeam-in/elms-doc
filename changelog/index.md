@@ -11,12 +11,29 @@ Welcome to the eLMS ChangeLog! This section documents all the important changes,
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
-| 1.3.0          | 3.44.8         | 2.3.21        | 8.11.1      | 9.5.1                    | 17          |
-| 1.2.0          | 3.44.6         | 2.3.21        | 8.11.1      | 9.5.1                    | 17          |
+| 1.4.0          | 3.47.5         | 2.3.21        | 8.11.1      | 9.1.0                    | 17          |
+| 1.3.0          | 3.44.8         | 2.3.21        | 8.11.1      | 9.1.0                    | 17          |
+| 1.2.0          | 3.44.6         | 2.3.21        | 8.11.1      | 9.1.0                    | 17          |
 
 ## Version History
 
 <details open>
+<summary>Version 1.4.0 (Updated on 01 Oct 2026)</summary>
+
+- [Added] Amazon S3 cloud storage support [System]
+- [Added] Cloudflare R2 cloud storage support [System]
+- [Added] Video storage migration with per-video status, retry and resume [Panel]
+- [Added] Platform-wide colour theming with a full palette generated from Admin Panel settings [Web, App, Panel]
+- [Added] Facebook (Meta) App Events for ad campaign tracking and install analytics [App]
+- [Added] Dark theme with theme switcher [Web, Panel]
+- [Added] Manage Preferences for theme, language and video resume [Web, App]
+- [Improved] Admin Panel Sidebar UI [Panel]
+- [Improved] Added server-side rendering for better SEO [Web]
+- [Fixed] Bug fixes and general improvements [Web, App, Panel]
+
+</details>
+
+<details>
 <summary>Version 1.3.0 (Updated on 24 Aug 2026)</summary>
 
 - [Added] Custom Certificate Template Builder [Panels]
