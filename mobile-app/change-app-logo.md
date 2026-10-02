@@ -91,7 +91,7 @@ flutter_launcher_icons:
   remove_alpha_ios: true
 ```
 
-**Note:** `adaptive_icon_background` should match the app's current brand color. If you change the brand color (see [Change App Theme](./change-app-theme)), update this value too so the launcher icon's background stays consistent with the in-app theme.
+**Note:** `adaptive_icon_background` should match the app's current brand color. If you change the brand color (see [Change App Theme](./change-app-theme.md)), update this value too so the launcher icon's background stays consistent with the in-app theme.
 
 ### Step 2: Replace Icon Files
 
