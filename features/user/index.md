@@ -22,3 +22,4 @@ This section covers all features available to students and learners accessing th
 | [My Purchases & Refunds](./purchases-refunds) | Review purchase history, download invoices, and submit refund requests for eligible courses. |
 | [Help & Support](./help-support) | Browse FAQs, search support topics, and participate in public or private community groups. |
 | [Other Features](./other-features) | Language and RTL support, notifications, edit profile, and account security settings. |
+| [Manage Preferences](./manage-preferences) | Set the interface language, choose a Day, Night or system theme, and control course playback resume behaviour. |
