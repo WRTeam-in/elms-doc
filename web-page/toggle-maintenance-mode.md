@@ -4,10 +4,12 @@ sidebar_position: 11
 
 # Toggle Maintenance Mode
 
-1. Go to admin panel **system-settings -> general-settings**
+1. Go to admin panel **Settings → System → General**
+2. Turn **Enable Maintenance Mode** on or off.
+3. Click **Submit**.
 
-![maintenaceMode](/images/web/maintenaceMode.png)
+![Maintenance Mode](../static/images/admin/system-settings-general.png)
 
 :::warning
-If you on the Maintenance Mode it will be for both Web And App
+If you turn on Maintenance Mode it will be for both Web And App
 :::

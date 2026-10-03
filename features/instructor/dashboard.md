@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Dashboard
 
-![Instructor Dashboard](../../static/images/web/dashboard.png)
+![Instructor Dashboard](../../static/images/instructor/dashboard-overview.png)
 
 The Instructor Dashboard provides instructors and team instructors with a complete overview of their courses, earnings, student engagement, and platform activities. It serves as the main control panel for monitoring instructor-related performance and course data.
 
@@ -27,3 +27,5 @@ Displays the instructor's top-performing courses based on enrollments and sales,
 ### Courses Listing
 
 Displays all instructor courses in a detailed table with filters and search functionality. Information shown includes course name, chapter count, pricing, discounts, enrollments, and status, along with course management actions.
+
+![Instructor Courses List](../../static/images/instructor/dashboard-courses-list.png)

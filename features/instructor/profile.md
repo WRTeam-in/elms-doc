@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Instructor Profile
 
-![Instructor Profile](../../static/images/web/edit_profile.png)
+![Instructor Profile](../../static/images/instructor/profile-edit.png)
 
 Any normal user account can be converted into an instructor account using the Become an Instructor feature on the website.
 

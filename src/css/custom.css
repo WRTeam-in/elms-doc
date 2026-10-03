@@ -49,6 +49,15 @@
   border: none;
 }
 
+/* Center screenshots (small images sit in the middle of the content column) */
+.markdown img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Add subtle border and shadow to screenshots in light mode only */
 html[data-theme='light'] .markdown img {
   border: 1px solid rgba(0, 0, 0, 0.08);

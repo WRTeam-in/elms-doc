@@ -6,7 +6,7 @@ sidebar_position: 9
 
 ### Notifications
 
-![Notifications](../../static/images/admin/notification_list.png)
+![Notifications](../../static/images/admin/notification-list.png)
 
 The admin can send FCM push notifications from this section. Each notification supports a title, message, and an optional image. A notification type must also be selected from the following options:
 
@@ -19,6 +19,6 @@ Previously sent notifications are listed below with a delete option and are also
 
 ### Contact Messages
 
-![Contact Messages](../../static/images/admin/messages.png)
+![Contact Messages](../../static/images/admin/contact-messages.png)
 
 The website's Contact Us page includes a form where anyone can submit their name, email, and a message. These submissions are shown to the admin here. The admin can manually manage the status of each message, and the total number of new messages is shown as a badge in the sidebar. Follow-up communication can be handled by the admin directly via email.

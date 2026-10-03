@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # My Courses
 
-![My Courses](../../static/images/web/my_courses.png)
+![My Courses](../../static/images/instructor/my-courses.png)
 
 The My Courses page allows instructors and team instructors to manage all their created courses from a single place. It provides course statistics, management actions, and a detailed listing of all courses.
 
@@ -24,7 +24,7 @@ Instructors can create new courses via **Add Course** or modify existing courses
 
 ### Step 1: Create Course
 
-![Add Course](../../static/images/web/add-course.png)
+![Add Course](../../static/images/instructor/course-add.png)
 
 Defines basic course information and metadata:
 - **Course Title** (*Required*): Title of the course (Max 100 characters).
@@ -42,7 +42,7 @@ Defines basic course information and metadata:
 
 ### Step 2: Pricing
 
-![Course Price](../../static/images/web/course-price.png)
+![Course Price](../../static/images/instructor/course-pricing.png)
 
 Sets the pricing configuration:
 - **Click if this course is free**: Toggle switch to make the course free.
@@ -51,13 +51,13 @@ Sets the pricing configuration:
 
 ### Step 3: Curriculum & Content
 
-![Course Curriculum](../../static/images/web/course-curriculum.png)
+![Course Curriculum](../../static/images/instructor/course-curriculum.png)
 
 Instructors build and structure course content through step-by-step chapter creation and curriculum item additions:
 
 #### Step 1: Add Chapter
 
-![Add Chapter](../../static/images/web/add-chapter.png)
+![Add Chapter](../../static/images/instructor/course-add-chapter.png)
 
 1. Click the **+ Add Chapter** button at the top right of the **Curriculum & Content** tab.
 2. Enter the **Chapter Title** (*Required*).
@@ -85,7 +85,7 @@ Adding a quiz is a two-part step-by-step process:
 
 ###### Part 1: Create the Quiz
 
-![Add Quiz](../../static/images/web/add-quiz.png)
+![Add Quiz](../../static/images/instructor/course-add-quiz.png)
 
 1. Under the target chapter, click the **+ Quiz** button.
 2. Enter the **Quiz Title** (*Required*).
@@ -96,7 +96,7 @@ Adding a quiz is a two-part step-by-step process:
 
 ###### Part 2: Add Quiz Questions & Answers
 
-![Add Quiz Question](../../static/images/web/add-quiz-question.png)
+![Add Quiz Question](../../static/images/instructor/course-add-question.png)
 
 1. Locate the created quiz inside the chapter item list and click **Add Question**.
 2. Enter the **Question Title** (*Required*).
@@ -109,7 +109,7 @@ Adding a quiz is a two-part step-by-step process:
 
 ##### 3. Add Assignment
 
-![Add Assignment](../../static/images/web/add-assignment.png)
+![Add Assignment](../../static/images/instructor/course-add-assignment.png)
 
 Allows creating practical assignments for student submission:
 1. Under the target chapter, click the **+ Assignment** button.
@@ -123,7 +123,7 @@ Allows creating practical assignments for student submission:
 
 ##### 4. Add Resources
 
-![Add Resources](../../static/images/web/add-resources.png)
+![Add Resources](../../static/images/instructor/course-add-resource.png)
 
 Allows attaching standalone study materials to the chapter:
 1. Under the target chapter, click the **+ Resources** button.
@@ -135,7 +135,7 @@ Allows attaching standalone study materials to the chapter:
 
 ### Step 4: Publish & Settings
 
-![Publish Settings](../../static/images/web/publish-settings.png)
+![Publish Settings](../../static/images/instructor/course-publish.png)
 
 Configures publishing rules and certificates:
 - **Certificate Settings**: For paid courses, certificate fees are included in the course price. For free courses, certificate pricing can be configured separately with an unlock amount option.
@@ -154,7 +154,7 @@ Clicking **View Details** on any course opens the Course Details page with seven
 
 ### 1. Course Statistics
 
-![Course Statistics](../../static/images/web/course-statistics.png)
+![Course Statistics](../../static/images/instructor/course-statistics.png)
 
 The **Course Statistics** tab provides a complete analytical dashboard for the selected course:
 - **Course Details Header**: Displays course thumbnail, title, short description, instructor name, difficulty level, course duration, language taught, access type (e.g., Lifetime), certificate availability, course number, publish date, and active/inactive status.
@@ -167,7 +167,7 @@ The **Course Statistics** tab provides a complete analytical dashboard for the s
 
 ### 2. Course Details
 
-![Course Details](../../static/images/web/course-details.png)
+![Course Details](../../static/images/instructor/course-details.png)
 
 The **Course Details** tab displays the complete course overview and content structure:
 - **Course Description**: Detailed explanation of course goals and covered topics.
@@ -175,7 +175,7 @@ The **Course Details** tab displays the complete course overview and content str
 
 ### 3. Student Enrolled
 
-![Student Enrolled](../../static/images/web/student-enrolled.png)
+![Student Enrolled](../../static/images/instructor/course-students.png)
 
 The **Student Enrolled** tab lists all students currently registered for the course:
 - **#**: Index or ID.
@@ -185,7 +185,7 @@ The **Student Enrolled** tab lists all students currently registered for the cou
 
 ### 4. Assignments List
 
-![Assignments List](../../static/images/web/assignment-list.png)
+![Assignments List](../../static/images/instructor/course-assignments.png)
 
 The **Assignments List** tab provides tracking for all course assignments:
 - **Assignment Name**: Title of the assignment task.
@@ -195,7 +195,7 @@ The **Assignments List** tab provides tracking for all course assignments:
 
 ### 5. Quiz Report
 
-![Quiz Report](../../static/images/web/quiz-report.png)
+![Quiz Report](../../static/images/instructor/course-quiz-report.png)
 
 The **Quiz Report** tab lists all quizzes within the course along with category and search filters:
 - **Quiz Name & Questions**: Quiz title and total question count.
@@ -204,7 +204,7 @@ The **Quiz Report** tab lists all quizzes within the course along with category 
 
 #### Quiz Report Details
 
-![Quiz Report Details](../../static/images/web/quiz-report-details.png)
+![Quiz Report Details](../../static/images/instructor/course-quiz-report-details.png)
 
 Inside **View Attempts**, instructors can inspect comprehensive attempt metrics:
 - **Summary Metrics**: Displays Passing Points threshold, Total Points available, and Total Attempts count.
@@ -219,7 +219,7 @@ Inside **View Attempts**, instructors can inspect comprehensive attempt metrics:
 
 ### 6. Discussion
 
-![Course Discussion](../../static/images/web/course_discussion.png)
+![Course Discussion](../../static/images/instructor/course-discussion.png)
 
 The **Discussion** tab serves as the main Q&A thread management center:
 - **Discussion Posts**: Student questions and discussion topics.
@@ -228,7 +228,7 @@ The **Discussion** tab serves as the main Q&A thread management center:
 
 ### 7. Reviews
 
-![Course Reviews](../../static/images/web/course-review.png)
+![Course Reviews](../../static/images/instructor/course-reviews.png)
 
 The **Reviews** tab presents student ratings and reviews:
 - **Average Rating**: Overall star rating average (0.0 to 5.0).

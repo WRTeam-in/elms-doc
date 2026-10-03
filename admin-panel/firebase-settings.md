@@ -1,12 +1,14 @@
 ---
-sidebar_position: 5
+sidebar_position: 9
 ---
 
 # Firebase Settings
 
 These settings will be used by your Flutter APP / Next JS web.
 
-![Firebase Settings](../static/images/admin/9.png)
+Go to **Settings → Firebase**. Enter your **Project ID** and upload the **Firebase Service Account JSON File**. When a file has already been uploaded, a green **File Exists** badge is shown. Click **Submit** to save.
+
+![Firebase Settings](../static/images/admin/firebase-settings-page.png)
 
 
 ## Firebase Project Id

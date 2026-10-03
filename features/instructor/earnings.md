@@ -6,7 +6,7 @@ sidebar_position: 8
 
 ### Overview
 
-![Earnings Overview](../../static/images/web/overview.png)
+![Earnings Overview](../../static/images/instructor/earnings-overview.png)
 
 The earnings dashboard displays the following at the top: Total Revenue, Platform Commission, Total Earnings, and Amount on Hold. A revenue graph for the current year is shown below, with options to filter by this month and this week.
 
@@ -21,6 +21,6 @@ An earnings graph, a most-selling courses list with total revenue and view detai
 
 ### Refund Requests
 
-![Refund Requests](../../static/images/web/refund_requests.png)
+![Refund Requests](../../static/images/instructor/earnings-refund-requests.png)
 
 Displays the refund request list with user details, course, enrollment date, student progress (percentage and graph), status, and an action button. The **View Details** action allows the instructor to review the reason for the refund (including text and attached files) and add a note along with an approve or reject decision. This response and note are visible to the admin, who makes the final call on whether to process the refund.

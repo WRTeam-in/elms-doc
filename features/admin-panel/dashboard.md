@@ -6,11 +6,9 @@ sidebar_position: 1
 
 The admin panel dashboard showcases different figures, metrics, charts, and activities, with a refresh data option to retrieve the latest information at any time.
 
-![General Statistics, Growth & Performance, and Recent Activities](../../static/images/admin/dashboard_1.png)
+![General Statistics, Growth & Performance, and Recent Activities](../../static/images/admin/dashboard-overview.png)
 
 ### General Statistics
-
-
 
 - **Total Users** – The total number of users registered on the platform.
 - **Total Courses** – The total number of courses added on the platform.
@@ -27,11 +25,13 @@ A graph displaying monthly data from the past year through the present, with thr
 
 ### Recent Activities
 
-Displays a list of recent platform activities, including new user registrations, course creations, and orders placed, along with their timestamps.
+Displays a list of recent platform activities, including new user registrations, course creations, and orders placed, along with their timestamps. The **View All** button opens the full Recent Activities list, where you can search, sort and browse all activities with their type, event, description and date & time.
 
-![Ratings, Course Insights, and Community & Engagement](../../static/images/admin/dashbaord_2.png)
+![Recent Activities](../../static/images/admin/dashboard-recent-activities.png)
 
 ### Ratings & Satisfaction
+
+![Ratings, Course Insights, and Community & Engagement](../../static/images/admin/dashboard-ratings-insights.png)
 
 Displays the overall ratings for instructors and courses, including average ratings and star-wise rating totals. A **Details** button redirects to the Ratings Management page for a more in-depth view.
 
@@ -43,9 +43,9 @@ Displays the following values related to courses: Published Course Count, Draft 
 
 Displays the following values related to user engagement: Active Users Count, Current Month New User Count, Discussions Count, Quiz Attempts Count, Pending Instructors Count, and Support Tickets Count.
 
-![Top Instructors and Popular Courses](../../static/images/admin/dashboard_3.png)
-
 ### Top Instructors
+
+![Top Instructors and Popular Courses](../../static/images/admin/dashboard-top-instructors-courses.png)
 
 Displays the top 5 instructors who have generated the most revenue on the platform.
 
@@ -53,9 +53,9 @@ Displays the top 5 instructors who have generated the most revenue on the platfo
 
 Displays the top 5 courses with the highest enrollment count.
 
-![Net Revenue, Payment Insights, and Category Distribution](../../static/images/admin/dashboard_4.png)
-
 ### Net Revenue
+
+![Net Revenue, Payment Insights, and Category Distribution](../../static/images/admin/dashboard-revenue-payments.png)
 
 Displays the revenue for the current and the previous month along with the growth percentage.
 
