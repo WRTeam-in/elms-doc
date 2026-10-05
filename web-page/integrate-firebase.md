@@ -48,5 +48,24 @@ sidebar_position: 5
 
    ![News](/images/web/firebase-add-web-domain.png)
 
-   **Congratulations. You have successfully connected your Web application to your firebase project. Now you are good to go ahead.** 
+   **Congratulations. You have successfully connected your Web application to your firebase project. Now you are good to go ahead.**
+
+   **Edit Browser API Key (Google Cloud Console -> APIs & Services -> Credentials)**
+
+   ![News](/images/web/firebase-conf-1.png)
+
+   **Restrict API Key to Your Website Domains**
+
+   ![News](/images/web/firebase-conf-2.png)
+
+:::warning
+Your Firebase **private key** gives full access to your Firebase project. Never share it, post it publicly, or commit it to a public repository. If it is exposed, delete it from Firebase and generate a new one immediately.
+:::
+
+   **Important Notes**
+   * Keep your Firebase **private key** (service account JSON) safe. Generate it from Project Settings -> Service accounts -> Generate new private key, and never share it or commit it to a public repository. If it leaks, delete it and generate a new one immediately.
+   * Keep credentials secure
+   * Follow Firebase best practices
+   * Regular monitoring
+   * Stay updated with Firebase changes
 
