@@ -9,13 +9,13 @@ Users can control how the platform looks and behaves from the **Manage Preferenc
 - **Application** – Available from **Profile → Manage Preferences**.
 - **Website** – Available from **My Profile → Manage Preferences**.
 
-{/* TODO: add screenshot — ![Manage Preferences](/images/features/user/manage-preferences.png) */}
+![Manage Preferences](/images/features/user/manage-preferences.png)
 
 ## Language
 
 Users can select their preferred language for the interface from the list of languages enabled in the admin panel. Right-to-left layout support is applied automatically for supported languages.
 
-{/* TODO: add screenshot — ![App Language](/images/features/user/preference-language.png) */}
+![App Language](/images/features/user/language-selections.png)
 
 ## Theme
 
@@ -29,7 +29,7 @@ Users can choose how the interface is rendered:
 
 The selected theme is applied across the application and the website. The colour palette itself is generated from the primary colour configured in the admin panel, so theme changes always stay consistent with the platform branding.
 
-{/* TODO: add screenshot — ![App Theme](/images/features/user/preference-theme.png) */}
+![App Theme](/images/features/user/preference-theme.png)
 
 ## Playback Preferences
 
@@ -40,4 +40,4 @@ Users can choose what happens when they reopen a course they have already starte
 | Always Continue Watching | Automatically resumes the course from where the user left off. |
 | Always Start from Beginning | Always starts the course from the first curriculum item. |
 
-{/* TODO: add screenshot — ![Playback Preferences](/images/features/user/preference-playback.png) */}
+![Playback Preferences](/images/features/user/preference-playback.png)
