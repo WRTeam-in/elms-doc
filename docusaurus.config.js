@@ -15,9 +15,8 @@ const config = {
   favicon: 'images/logo/logo.png',
 
   // Set the production url of your site here
-  url: 'https:lms-docn.github.io', // Your GitHub Pages URL
-  baseUrl: '/elms-doc/', // The repository name, preceded by a slash
-  // baseUrl: '/',
+  url: 'https://wrteam-in.github.io',
+  baseUrl: '/elms-doc/',
   organizationName: 'WRTeam-in', // Your GitHub username
   projectName: 'eLMS-Doc', // Your repository name
   trailingSlash: true,
