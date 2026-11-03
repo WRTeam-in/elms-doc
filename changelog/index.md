@@ -11,6 +11,7 @@ Welcome to the eLMS ChangeLog! This section documents all the important changes,
 
 | Product Version | Flutter Version | Kotlin Version | AGP Version | distributionUrl (Gradle) | JDK Version |
 |----------------|----------------|---------------|-------------|--------------------------|-------------|
+| 1.5.0          | 3.47.9         | 2.3.21        | 9.1.0       | 9.3.1                    | 17          |
 | 1.4.0          | 3.47.5         | 2.3.21        | 8.11.1      | 9.1.0                    | 17          |
 | 1.3.0          | 3.44.8         | 2.3.21        | 8.11.1      | 9.1.0                    | 17          |
 | 1.2.0          | 3.44.6         | 2.3.21        | 8.11.1      | 9.1.0                    | 17          |
@@ -18,6 +19,20 @@ Welcome to the eLMS ChangeLog! This section documents all the important changes,
 ## Version History
 
 <details open>
+<summary>Version 1.5.0 (Updated on 03 Nov 2026)</summary>
+
+- [Added] Specialisations: bundle courses into an ordered learning path with a bundle price, optional discount, certificate and exclusive resources [Panel, Web, App]
+- [Added] Specialisation approvals, reports filter and revenue tracking [Panel]
+- [Added] Instructors can create Specialisations and track learners and revenue [Web]
+- [Added] Undo and redo in the certificate template builder [Panel, Web]
+- [Added] Issued certificates list [Panel, Web]
+- [Added] Quiz bulk upload via CSV [Web]
+- [Improved] White logo in the dark theme [Web]
+- [Fixed] Bug fixes and general improvements [App]
+
+</details>
+
+<details>
 <summary>Version 1.4.0 (Updated on 01 Oct 2026)</summary>
 
 - [Added] Amazon S3 cloud storage support [System]
