@@ -39,7 +39,6 @@ Welcome to the eLMS ChangeLog! This section documents all the important changes,
 - [Added] Cloudflare R2 cloud storage support [System]
 - [Added] Video storage migration with per-video status, retry and resume [Panel]
 - [Added] Platform-wide colour theming with a full palette generated from Admin Panel settings [Web, App, Panel]
-- [Added] Facebook (Meta) App Events for ad campaign tracking and install analytics [App]
 - [Added] Dark theme with theme switcher [Web, Panel]
 - [Added] Manage Preferences for theme, language and video resume [Web, App]
 - [Improved] Admin Panel Sidebar UI [Panel]
