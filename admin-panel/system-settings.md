@@ -45,6 +45,14 @@ Controls how instructors work on the platform.
 - **Instructor Mode** – *Single Instructor* (admin acts as the only instructor) or *Multi Instructor System* (separate instructor accounts are allowed).
 - **Allow Instructor Certificate** – lets instructors create and assign custom certificates to their courses.
 
+### Course
+Turn course-related features on or off for the whole platform.
+
+![Course Settings](../static/images/admin/system-settings-course.png)
+
+- **Enable Live Class** – when turned off, live classes are hidden from the panel.
+- **Enable Specialization** – when turned off, specialization is hidden from the panel.
+
 ### Commission
 Set how revenue is shared. Enter the **Platform Fee (%)** and the instructor share is calculated automatically (100 − platform fee). Separate rates can be set for **Individual Instructors** and **Team Instructors**.
 

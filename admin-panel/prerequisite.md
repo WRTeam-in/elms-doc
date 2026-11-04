@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Prerequisite
 
-eLMS Admin panel is built using **Laravel Framework 12** so you need **PHP version upto 8.3** version installed on your server.
+eLMS Admin panel is built using **Laravel Framework 12** so you need **PHP version upto 8.5** version installed on your server.
 
 ## Upload Admin Panel code on server
 

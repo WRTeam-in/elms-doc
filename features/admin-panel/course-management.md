@@ -126,23 +126,3 @@ Displays instructor course publishing requests, which the admin can view, approv
 ### Rejected Courses
 
 Displays the list of rejected courses with a view details option. These courses can be edited by the respective instructor and resubmitted for approval.
-
-### Certificates
-
-![Certificate Templates](../../static/images/admin/certificate-list.png)
-
-Course completion certificates can be created and managed from this section. The list shows each certificate template with its type, layout (landscape or portrait), the user who added it, publish status, default fallback and active status. It can be filtered by instructor and publish status. Actions for each template include **Preview**, **Edit Designer** and **Delete**.
-
-Click **Create Certificate** to open the certificate designer.
-
-![Certificate Designer](../../static/images/admin/certificate-designer.png)
-
-In the designer you can:
-
-- **Add elements** – custom text, paragraphs and images, plus dynamic data that is replaced automatically when a student downloads their certificate: **User data** (Full Name, First Name, Last Name, User Email) and **Course data** (Course Name, Course Duration, Completion Date, Instructor Name, Certificate ID).
-- **Set the background** from the **Background** tab.
-- **Choose the layout** – Landscape (1050×742) or Portrait (742×1050).
-- **Set the status** – Publish or Draft.
-- **Set a Global Default** – courses without a specific certificate assigned will automatically issue this template.
-
-Enter a template name at the top and click **Save**. Instructors can create their own certificates when **Allow Instructor Certificate** is enabled in [System Settings](/admin-panel/system-settings).

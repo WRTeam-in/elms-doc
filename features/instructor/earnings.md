@@ -24,3 +24,15 @@ An earnings graph, a most-selling courses list with total revenue and view detai
 ![Refund Requests](../../static/images/instructor/earnings-refund-requests.png)
 
 Displays the refund request list with user details, course, enrollment date, student progress (percentage and graph), status, and an action button. The **View Details** action allows the instructor to review the reason for the refund (including text and attached files) and add a note along with an approve or reject decision. This response and note are visible to the admin, who makes the final call on whether to process the refund.
+
+### Specialization Earnings
+
+![Specialization Earnings](../../static/images/instructor/earnings-specialization.png)
+
+Found under **Earnings → Specialization**, this page shows earnings from specialization courses only. The top cards show Total Revenue, Platform Commission, Total Earning and Amount On Hold. Below them:
+
+- **Revenue** and **Earnings** charts for the year, with period filters.
+- **Available to Withdraw** and **Total Withdrawal** cards, with the **Withdraw** and **View History** buttons.
+- **Course Revenue** table listing each specialization with its number of courses, total enrollments, revenue and pending amount. It can be searched and sorted, and the eye icon opens that specialization's statistics.
+- **Most Selling Specialization Courses** ranked by revenue or enrollments.
+- **All Specialization Courses** with their prices and a **View Details** button.
