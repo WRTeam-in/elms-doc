@@ -14,7 +14,7 @@ The home page of the application and website showcases the following content:
 
 ![Categories](/images/features/user/cat.png)
 
-- **Featured Sections** – Different featured sections enabled from the admin panel are displayed with their course or instructor cards.
+- **Featured Sections** – Different featured sections enabled from the admin panel are displayed with their course, instructor, or [specialization](./specializations.md) cards.
 
 ![Featured Sections](/images/features/user/featured-sections.png)
 

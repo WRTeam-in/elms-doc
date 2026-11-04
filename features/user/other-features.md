@@ -20,9 +20,11 @@ sidebar_position: 12
 
 ![Account Security](/images/features/user/account-security.png)
 
-- **Wishlist** – Users can view all wishlisted courses, remove courses from the wishlist, or add them directly to the cart if not already enrolled.
+- **Wishlist** – Users can view all wishlisted courses, remove courses from the wishlist, or add them directly to the cart if not already enrolled. Wishlisted [specializations](./specializations.md) appear in a separate tab with the same options. In the application, they can also be filtered by instructor and price.
 
 ![My Wishlist](/images/features/user/my-wishlist.png)
+
+![Wishlisted Specializations](/images/features/user/specialization-wishlist.png)
 
 - **Delete Account** – Users can permanently delete their account.
 

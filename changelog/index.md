@@ -21,7 +21,7 @@ Welcome to the eLMS ChangeLog! This section documents all the important changes,
 <details open>
 <summary>Version 1.5.0 (Updated on 03 Nov 2026)</summary>
 
-- [Added] Specialisations: bundle courses into an ordered learning path with a bundle price, optional discount, certificate and exclusive resources [Panel, Web, App]
+- [Added] Specialisations: bundle courses into an ordered learning path with its own certificate, exclusive resources and an optional discount [Panel, Web, App]
 - [Added] Specialisation approvals, reports filter and revenue tracking [Panel]
 - [Added] Instructors can create Specialisations and track learners and revenue [Web]
 - [Added] Undo and redo in the certificate template builder [Panel, Web]

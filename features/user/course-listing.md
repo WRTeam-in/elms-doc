@@ -11,4 +11,6 @@ The course listing page is accessible from multiple places — including a featu
 - **Sorting Options** – Newest, Oldest, and Most Popular.
 - **Course Cards** – Each card displays the course image, category, title, instructor name, and price (with a discounted price where applicable). A wishlist toggle is also available on each card.
 
+In the application, the Explore tab also includes a toggle to switch between courses and [specializations](./specializations.md).
+
 ![Course Listing](/images/features/user/course-listing.png)
